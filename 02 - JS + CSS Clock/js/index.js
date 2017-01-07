@@ -36,4 +36,6 @@ function surprise(callback) {
 
 const audio = document.querySelector('.german-shephard');
 
+audio.play();
+
 surprise(audio.play.bind(audio));
